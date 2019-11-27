@@ -1,0 +1,44 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" circular="{{circular}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="unique">
+    <swiper-item>
+    <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+
+<view class="location">
+  <view class="location-left">
+    <view>英才启能学能训练</view>
+    <view class="location-wh">河北省石家庄市长安区和合大厦1708</view>
+  </view>
+  <view class="location-right">
+    <icon>123</icon>
+    <view>导航到店</view>
+  </view>
+</view>
+
+<view class="nav">
+  <view class=" nav1">
+    <!-- <icon></icon> -->
+    <view class="icon">1</view>
+    <view class="text">精品课程</view>
+  </view>
+  <view class="nav2">
+    <!-- <icon></icon> -->
+    <view class="icon">2</view>
+    <view class="text">培训课表</view>
+  </view>
+  <view class="nav3">
+    <view class="icon">3</view>
+    <view class="text">助教老师</view>
+    <!-- <icon></icon> -->
+  </view>
+  <view class="nav4">
+    <view class="icon">4</view>
+    <view class="text">沙龙报名</view>
+    <!-- <icon></icon> -->
+  </view>
+</view>
